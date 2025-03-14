@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+body{
+    background-color:  rgb(154, 178, 200);
+}
+.head{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 235, 245);
+    border-style:solid ;
+    border-color: black;
+    border-radius: 10px;
+   
+}
+
+.img {
+    display: grid;
+    justify-content: center; /* Center images horizontally */
+    align-items: center; /* Center images vertically */
+    gap: 10px; /* Adds space between images */
+    
+}
+
+.png {
+    height: 200px;
+    width: auto;
+    cursor: pointer;
+    border-style:solid ;
+    border-color: black;
+    border-radius: 20px;
+}
+.main{
+    display:grid;
+    gap: 10px; 
+    background-color: rgb(154, 178, 200);
+
+}
